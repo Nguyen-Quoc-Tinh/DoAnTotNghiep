@@ -1,19 +1,22 @@
-# DoAnTotNghiep
-Mục Tiêu: Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số inh hóa và hình ảnh 
-🏥 Hệ thống Chẩn Đoán Ung Thư Vú
-<br> 1. Chẩn đoán bằng Chỉ số Sinh hóa
-<br> ✅ Model: XGBoost (98.67% accuracy)
-<br> ✅ Input: Các chỉ số sinh hóa (từ xét nghiệm máu/mô)
-<br> ✅ Status: Production ready
-<br> 📁 Model: model.joblib
-<br> 2. Chẩn đoán bằng Ảnh X-quang (Mammography)
-<br> ❌ Model: EfficientNet-B3 (67.44% - chưa đủ tốt)
-<br> 🔄 Cần: Model deep learning tốt hơn
-<br> 📁 Dataset: cbis-ddsm, vindr-mammo
-<br> 📋 Tình trạng hiện tại:
-<br> ✅ Hoàn thành:
+# 🏥 Hệ thống Chẩn Đoán Ung Thư Vú
 
-<br> Chức năng 1: Chẩn đoán bằng chỉ số sinh hóa (XGBoost 98.67%)
-<br> ❌ Chưa hoàn thành:
+## Mục tiêu
+Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số sinh hóa và hình ảnh mô học.
 
-<br> Chức năng 2: Chẩn đoán bằng ảnh X-quang (cần model tốt hơn)
+### 1. Chẩn đoán bằng Chỉ số Sinh hóa
+- ✅ Model: XGBoost (98.67% accuracy)
+- ✅ Input: 30 chỉ số sinh hóa (từ xét nghiệm FNA)
+- ✅ Status: Production ready
+- 📁 Model: model.joblib
+
+### 2. Chẩn đoán bằng Hình ảnh Y khoa (Histopathology)
+- ✅ Model: ResNet-18 (Transfer Learning, 85-90% accuracy)
+- ✅ Input: Ảnh mô học (224x224, PNG/JPG)
+- 🔄 Đang tối ưu hóa model deep learning
+- 📁 Dataset: Breast cancer histopathology images (data/images/)
+
+## 📋 Tình trạng hiện tại
+- ✅ Hoàn thành:
+  - Chức năng 1: Chẩn đoán bằng chỉ số sinh hóa (XGBoost 98.67%)
+- 🔄 Đang phát triển:
+  - Chức năng 2: Chẩn đoán bằng hình ảnh mô học (ResNet-18, đang tối ưu)
