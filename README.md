@@ -1,4 +1,4 @@
-# LuanVanTotNghiep
+# DoAnTotNghiep
 Mục Tiêu: Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số inh hóa và hình ảnh 
 🏥 Hệ thống Chẩn Đoán Ung Thư Vú
 <br> 1. Chẩn đoán bằng Chỉ số Sinh hóa
