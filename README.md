@@ -46,6 +46,8 @@ Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số sin
 -Có thể tải từ UCI Machine Learning Repository:
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 Script download_dataset.py sẽ tự động tải về và lưu thành data/wdbc.csv.
+
+
 -Dữ liệu hình ảnh mô học:
 Nguồn phổ biến:
 https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images
