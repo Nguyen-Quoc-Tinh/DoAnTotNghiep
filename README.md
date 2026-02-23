@@ -23,7 +23,7 @@ Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số sin
  
 - Chức năng 2: Chẩn đoán bằng hình ảnh mô học EfficientNet-B0
   -Grad-CAM: Đã có script gradcam_efficientnet_b0.py (scripts/) để tạo Grad-CAM cho mô hình deep learning (EfficientNet-B0/ResNet-18).
--Data :
+#Data :
 -Dữ liệu chỉ số sinh hóa (biochemical):
 -Tên file: wdbc.csv
 -Nguồn: Wisconsin Diagnostic Breast Cancer (WDBC) dataset
