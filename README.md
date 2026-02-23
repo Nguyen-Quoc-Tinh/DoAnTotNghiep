@@ -43,9 +43,9 @@ Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số sin
 -Nội dung: Các thư mục con chứa ảnh mô học (định dạng PNG/JPG), đã chia thành các folder theo ID bệnh nhân hoặc theo train/val.
 
 -Dữ liệu chỉ số sinh hóa (WDBC):
--Có thể tải từ UCI Machine Learning Repository:
+-Có thể tải từ Kaggle:
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
-Script download_dataset.py sẽ tự động tải về và lưu thành data/wdbc.csv.
+Script download_dataset.py sẽ tự động tải về và lưu thành data/wdbc.csv.](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 
 -Dữ liệu hình ảnh mô học:
