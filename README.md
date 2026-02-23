@@ -26,10 +26,10 @@ Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số sin
 
 #Độ chính xác của từng mô hình trong dự án như sau:
 
--XGBoost (chỉ số sinh hóa): 98.67% (rất cao, đã kiểm chứng trên bộ dữ liệu WDBC, giá trị này là chính xác, không phải ước lượng).
+-XGBoost (chỉ số sinh hóa): 98.67% (rất cao, đã kiểm chứng trên bộ dữ liệu WDBC).
 
 
--EfficientNet-B0 (hình ảnh mô học): 92.54% (độ chính xác trên tập validation, giá trị này cũng là kết quả thực tế sau huấn luyện).
+-EfficientNet-B0 (hình ảnh mô học): 92.54% (độ chính xác trên tập validation).
 
 
 #Data :
