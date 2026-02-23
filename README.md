@@ -23,6 +23,8 @@ Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số sin
  
 - Chức năng 2: Chẩn đoán bằng hình ảnh mô học EfficientNet-B0
   -Grad-CAM: Đã có script gradcam_efficientnet_b0.py (scripts/) để tạo Grad-CAM cho mô hình deep learning (EfficientNet-B0/ResNet-18).
+
+
 #Data :
 -Dữ liệu chỉ số sinh hóa (biochemical):
 -Tên file: wdbc.csv
@@ -32,3 +34,12 @@ Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số sin
 -Thư mục: data/images/
 -Nguồn: Breast cancer histopathology images dataset
 -Nội dung: Các thư mục con chứa ảnh mô học (định dạng PNG/JPG), đã chia thành các folder theo ID bệnh nhân hoặc theo train/val.
+
+-Dữ liệu chỉ số sinh hóa (WDBC):
+-Có thể tải từ UCI Machine Learning Repository:
+https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+Script download_dataset.py sẽ tự động tải về và lưu thành data/wdbc.csv.
+-Dữ liệu hình ảnh mô học:
+Nguồn phổ biến:
+https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images
+Script scripts/download_image_dataset.py (hoặc hướng dẫn trong đó) sẽ giúp bạn tải về và giải nén vào data/images/.
