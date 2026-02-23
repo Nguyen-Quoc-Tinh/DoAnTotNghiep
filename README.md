@@ -19,10 +19,10 @@ Xây dựng hệ thống chẩn đoán bệnh ung thư vú bằng chỉ số sin
  - ✅ Hoàn thành:
    - Chức năng 1: Chẩn đoán bằng chỉ số sinh hóa (XGBoost 98.67%)
    - 🔍 Giải thích mô hình
-   -SHAP: Đã có script explain_xgboost.py (scripts/) để giải thích đặc trưng mô hình XGBoost.
+   -SHAP: để giải thích đặc trưng mô hình XGBoost.
  
 - Chức năng 2: Chẩn đoán bằng hình ảnh mô học EfficientNet-B0
-  -Grad-CAM: Đã có script gradcam_efficientnet_b0.py (scripts/) để tạo Grad-CAM cho mô hình deep learning (EfficientNet-B0/ResNet-18).
+  -Grad-CAM:Grad-CAM cho mô hình deep learning (EfficientNet-B0/ResNet-18).
 
 #Độ chính xác của từng mô hình trong dự án như sau:
 
