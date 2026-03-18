@@ -1,0 +1,8 @@
+{
+  "name": "breast-cancer-backend",
+  "version": "1.0.0",
+  "description": "FastAPI backend for breast cancer diagnosis",
+  "scripts": {
+    "start": "python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000"
+  }
+}
