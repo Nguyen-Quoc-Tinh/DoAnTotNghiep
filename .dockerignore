@@ -1,0 +1,18 @@
+.git
+.gitignore
+.venv
+node_modules
+frontend/node_modules
+frontend/dist
+backend/__pycache__
+backend/.venv
+backend/nul
+backend/test_output.pdf
+NUL
+data/images
+notebooks
+*.log
+*.pdf
+
+# Exclude oversized model not used in runtime
+backend/app/models/resnet18.pth

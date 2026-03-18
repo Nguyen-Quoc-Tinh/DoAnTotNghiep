@@ -47,9 +47,9 @@ npm-debug.log
 .DS_Store
 Thumbs.db
 
-# Models (large files)
-*.pth
-*.joblib
+# Models
+# Keep required runtime models in repo, ignore oversized training checkpoint.
+backend/app/models/resnet18.pth
 
 # Logs
 *.log

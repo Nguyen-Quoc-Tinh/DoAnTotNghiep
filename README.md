@@ -23,6 +23,27 @@ Hệ thống **AI đa phương thức** để hỗ trợ chẩn đoán ung thư 
 
 ## 🎯 Nhanh chóng bắt đầu
 
+### Cách khuyến nghị (không cần cài Python/Node/MongoDB)
+
+Chỉ cần cài Docker Desktop, sau đó chạy:
+
+```bash
+git clone https://github.com/Nguyen-Quoc-Tinh/DoAnTotNghiep.git
+cd DoAnTotNghiep
+docker compose up --build
+```
+
+Sau khi chạy xong:
+- Frontend: http://localhost:5173
+- Backend API: http://localhost:8000
+- API Docs: http://localhost:8000/docs
+
+Lưu ý:
+- Tài khoản mặc định: admin / Admin@1234
+- Mô hình runtime đã có sẵn trong `backend/app/models` để chạy ngay sau khi clone.
+
+---
+
 ### 1️⃣ Clone và cài đặt
 
 ```bash
