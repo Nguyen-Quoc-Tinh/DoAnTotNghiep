@@ -31,7 +31,20 @@ Chỉ cần cài Docker Desktop, sau đó chạy:
 ```bash
 git clone https://github.com/Nguyen-Quoc-Tinh/DoAnTotNghiep.git
 cd DoAnTotNghiep
-docker compose up --build
+# Chạy hệ thống (build lại image và chạy nền)
+docker compose up --build -d
+
+# Dừng tạm (không xóa container)
+docker compose stop
+
+# Chạy lại sau khi stop
+docker compose start
+
+# Dừng và xóa container + network của project hiện tại
+docker compose down
+
+# Dừng và xóa luôn volume (xóa dữ liệu DB trong volume)
+docker compose down -v
 ```
 
 Sau khi chạy xong:
