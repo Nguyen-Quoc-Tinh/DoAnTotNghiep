@@ -27,24 +27,30 @@ Hệ thống **AI đa phương thức** để hỗ trợ chẩn đoán ung thư 
 ### Cách khuyến nghị (không cần cài Python/Node/MongoDB)
 
 Chỉ cần cài Docker Desktop, sau đó chạy:
-
+**1. Lần đầu tải và chạy**
 ```bash
 git clone https://github.com/Nguyen-Quoc-Tinh/DoAnTotNghiep.git
 cd DoAnTotNghiep
 # Chạy hệ thống (build lại image và chạy nền)
 docker compose up --build -d
-
-# Dừng tạm (không xóa container)
+**2. Những lần chạy lại sau đó (không đổi code)**
+cd DoAnTotNghiep
+docker compose up -d
+**3. Khi có cập nhật code hoặc đổi Dockerfile/dependencies**
+cd DoAnTotNghiep
+git pull
+docker compose up --build -d
+**4. Dừng hệ thống**
 docker compose stop
-
-# Chạy lại sau khi stop
+5. Chạy lại sau khi stop
 docker compose start
-
-# Dừng và xóa container + network của project hiện tại
+6. Tắt và xóa container/network của project hiện tại
 docker compose down
-
-# Dừng và xóa luôn volume (xóa dữ liệu DB trong volume)
+7. Xóa cả dữ liệu database trong volume (cẩn thận)
 docker compose down -v
+8. Lệnh kiểm tra nhanh
+docker compose ps
+docker compose logs -f
 ```
 
 Sau khi chạy xong:
