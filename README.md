@@ -9,7 +9,7 @@
 Hệ thống **AI đa phương thức** để hỗ trợ chẩn đoán ung thư vú sử dụng hai loại dữ liệu:
 - **Dữ liệu sinh hóa**: 30 chỉ số từ xét nghiệm FNA → XGBoost (98.67% accuracy)
 - **Ảnh mô học**: Histopathology images → EfficientNet-B0 (92% accuracy)
-
+-** LINK SERVER HỆ THÓNG CHẨN ĐOÁNH BỆNH UNG THƯ VÚ: https://huggingface.co/spaces/NguyenQuocTinh222733/breast-cancer-diagnosis
 ### ✨ Tính năng chính
 - ✅ Dự đoán từ chỉ số sinh hóa có giải thích SHAP
 - ✅ Phân tích ảnh mô học với EfficientNet-B0
